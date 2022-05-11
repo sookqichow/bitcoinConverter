@@ -32,7 +32,7 @@ class BitcoinConverter extends StatefulWidget {
 
 class _BitcoinConverterState extends State<BitcoinConverter> {
   String selectCurrency = "btc",
-      unit = "BTN",
+      unit = "Please choose the currency that you would like to convert",
       type = "crypto",
       name = "bitcoin";
 
@@ -49,7 +49,7 @@ class _BitcoinConverterState extends State<BitcoinConverter> {
     "link",
     "dot",
     "yfi",
-    "usdr",
+    "usd",
     "aed",
     "ars",
     "aud",
